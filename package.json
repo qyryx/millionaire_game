@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Rank the people according to their wealth",
+    "hint1": "2nd item is: Jeff Bezos",
+    "initialOrder": [
+      "Bernard Arnault",
+      "Larry Page",
+      "Jeff Bezos",
+      "Elon Musk",
+      "Bill Gates"
+    ],
+    "rightOrder": [
+      "Elon Musk",
+      "Jeff Bezos",
+      "Bernard Arnault",
+      "Bill Gates",
+      "Larry Page"
+    ]
+  },
+  {
+    "question": "Rank the buildings by their height",
+    "hint1": "4th item is: Abraj Al-Bait Clock Tower",
+    "initialOrder": [
+      "Ping An Finance Centre",
+      "Shanghai Tower",
+      "Merdeka 118",
+      "Burj Khalifa",
+      "Abraj Al-Bait Clock Tower"
+    ],
+    "rightOrder": [
+      "Burj Khalifa",
+      "Merdeka 118",
+      "Shanghai Tower",
+      "Abraj Al-Bait Clock Tower",
+      "Ping An Finance Centre"
+    ]
+  },
+  {
+    "question": "Rank the materials according to their hardness",
+    "hint1": "4th item is: Quartz",
+    "initialOrder": [
+      "Orthoclase",
+      "Quartz",
+      "Topaz",
+      "Diamond",
+      "Corundum"
+    ],
+    "rightOrder": [
+      "Diamond",
+      "Corundum",
+      "Topaz",
+      "Quartz",
+      "Orthoclase"
+    ]
+  },
+  {
+    "question": "Rank the planets by the biggest distance from the sun",
+    "hint1": "1st item is: Neptune",
+    "initialOrder": [
+      "Saturn",
+      "Jupiter",
+      "Uranus",
+      "Mars",
+      "Neptune"
+    ],
+    "rightOrder": [
+      "Neptune",
+      "Uranus",
+      "Saturn",
+      "Jupiter",
+      "Mars"
+    ]
+  },
+  {
+    "question": "Rank the animals according to their speed",
+    "hint1": "2nd item is: Golden eagle",
+    "initialOrder": [
+      "Rock dove",
+      "Needletail swift",
+      "Peregrine falcon",
+      "Golden eagle",
+      "Mexican bat"
+    ],
+    "rightOrder": [
+      "Peregrine falcon",
+      "Golden eagle",
+      "Needletail swift",
+      "Mexican bat",
+      "Rock dove"
+    ]
+  },
+  {
+    "question": "Rank musical periods from the oldest",
+    "hint1": "5th item is: 20th Century",
+    "initialOrder": [
+      "Baroque",
+      "Classical",
+      "Romantic",
+      "20th Century",
+      "Renaissance"
+    ],
+    "rightOrder": [
+      "Renaissance",
+      "Baroque",
+      "Classical",
+      "Romantic",
+      "20th Century"
+    ]
+  },
+  {
+    "question": "Rank the elements from the least heavy",
+    "hint1": "3rd item is: Silver",
+    "initialOrder": [
+      "Calcium",
+      "Uranium",
+      "Carbon",
+      "Platinum",
+      "Silver"
+    ],
+    "rightOrder": [
+      "Carbon",
+      "Calcium",
+      "Silver",
+      "Platinum",
+      "Uranium"
+    ]
+  },
+  {
+    "question": "Rank the countries by area",
+    "hint1": "3rd item is: Saudi Arabia",
+    "initialOrder": [
+      "South Africa",
+      "China",
+      "Saudi Arabia",
+      "Turkey",
+      "Argentina"
+    ],
+    "rightOrder": [
+      "China",
+      "Argentina",
+      "Saudi Arabia",
+      "South Africa",
+      "Turkey"
+    ]
+  },
+  {
+    "question": "Rank the drinks by alcohol volume",
+    "hint1": "1st item is: Pernod Absinthe",
+    "initialOrder": [
+      "Aperol",
+      "Pernod Absinthe",
+      "Tatra Tea original",
+      "Russian Standard",
+      "Martini"
+    ],
+    "rightOrder": [
+      "Pernod Absinthe",
+      "Tatra Tea original",
+      "Russian Standard",
+      "Martini",
+      "Aperol"
+    ]
+  },
+  {
+    "question": "Sort CSGO ranks from the highest",
+    "hint1": "2nd item is: Supreme Master",
+    "initialOrder": [
+      "Gold Nova",
+      "Global Elite",
+      "Distinguished Master",
+      "Supreme Master",
+      "Legendary Eagle"
+    ],
+    "rightOrder": [
+      "Global Elite",
+      "Supreme Master",
+      "Legendary Eagle",
+      "Distinguished Master",
+      "Gold Nova"
+    ]
+  }
+]

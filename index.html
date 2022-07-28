@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4285f4">
+    <title>Millionaire</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="manifest" href="manifest.json"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="window2 no-print" id="win">
+        <p>YOU HAVE WON !</p>
+        <div class="closingButton">
+            <button id="back" onclick="restart()">BACK</button>
+        </div>
+    </div>
+    <div class="window2 no-print" id="loose">
+        <p>GAME OVER</p>
+        <div class="closingButton">
+            <button id="restart" onclick="restart()">PLAY AGAIN</button>
+        </div>
+    </div>
+    <nav class="navbar no-print" id="menu">
+        <div class="gameName">Millionaire</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#" onclick="displayRules()">Rules</a></li>
+                <li><a href="#" onclick="displayHint()">Hint</a></li>
+                <li><a href="#" onclick="displaySolution()">Solution</a></li>
+                <li><a href="#" onclick="restart()">End</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="window" id="rules">
+        <p>GAME RULES</p>
+        <p>Drag and drop the items into the right order. Click CHECK to review your order. If it's right, you continue to the next level, if not, you loose 1 health. If you loose all your 7 healths, the game is over. If you manage to order all 10 levels right, you win. Click Hint to see just one hint or click Solution to reveal the solution. By revealing solution you loose 1 health, so this feature is available if you have 2 healths at least.</p>
+        <div class="closingButton no-print">
+            <button id="closeRules" onclick="closeRules()">CLOSE</button>
+        </div>
+    </div>
+    <div class="window no-print" id="hint">
+        <p>HINT</p>
+        <div class="closingButton" id="buttonClosingHint">
+            <button id="closeHint" onclick="closeHint()">CLOSE</button>
+        </div>
+    </div>
+    <div class="window no-print" id="solution">
+        <p>SOLUTION</p>
+        <div class="closingButton" id="buttonClosingSolution">
+            <button id="closeSolution" onclick="closeSolution()">CLOSE</button>
+        </div>
+    </div>
+    <div class="buttons no-print" id="buttons">
+        <button id="startGame">START GAME</button>
+        <button id="level" disabled></button>
+        <button id="health" disabled></button>
+        <button id="check">CHECK</button>
+    </div>
+    <div class="container no-print" id="container"></div>
+    <div class="no-print" id="wrongAnswer">Wrong order ! Try it again.</div>
+    <footer class="no-print">
+        <p>Andrej Horník© 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
